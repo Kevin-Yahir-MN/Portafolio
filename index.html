@@ -1,144 +1,257 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kevin Yahir Magaña Navarro - Portafolio</title>
-  <style>
-    * {
-      box-sizing: border-box;
-    }
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f9f9f9;
-      color: #333;
-      line-height: 1.6;
-    }
-    header {
-      background: linear-gradient(135deg, #2c3e50, #3498db);
-      color: white;
-      padding: 4rem 2rem;
-      text-align: center;
-    }
-    header h1 {
-      margin: 0 0 0.5rem 0;
-      font-size: 2.5rem;
-    }
-    header p {
-      font-size: 1.2rem;
-    }
-    .btn {
-      display: inline-block;
-      margin-top: 1rem;
-      padding: 0.75rem 1.5rem;
-      background-color: #2980b9;
-      color: white;
-      text-decoration: none;
-      border-radius: 5px;
-      transition: background 0.3s;
-    }
-    .btn:hover {
-      background-color: #1c5980;
-    }
-    section {
-      padding: 2rem;
-      max-width: 1000px;
-      margin: auto;
-    }
-    h2 {
-      font-size: 1.8rem;
-      margin-bottom: 1rem;
-      color: #2c3e50;
-      border-left: 4px solid #3498db;
-      padding-left: 0.5rem;
-    }
-    ul {
-      list-style: none;
-      padding: 0;
-    }
-    li {
-      margin-bottom: 1.5rem;
-    }
-    footer {
-      text-align: center;
-      padding: 1.5rem;
-      background-color: #2c3e50;
-      color: white;
-      margin-top: 2rem;
-    }
-    @media (max-width: 768px) {
-      header h1 {
-        font-size: 2rem;
-      }
-      section {
-        padding: 1rem;
-      }
-    }
-  </style>
+  <meta name="description"
+    content="Portafolio profesional de Kevin Yahir Magaña Navarro, Ingeniero en Sistemas Computacionales y Desarrollador de Software especializado en PHP-Laravel">
+  <meta name="keywords" content="desarrollador de software, ingeniero en sistemas, PHP, Laravel, SQL Server, Tijuana">
+  <title>Kevin Yahir Magaña Navarro | Desarrollador de Software</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
+  <nav>
+    <ul>
+      <li><a href="#about">Sobre mí</a></li>
+      <li><a href="#experience">Experiencia</a></li>
+      <li><a href="#education">Educación</a></li>
+      <li><a href="#projects">Proyectos</a></li>
+      <li><a href="#certifications">Certificaciones</a></li>
+      <li><a href="#contact">Contacto</a></li>
+    </ul>
+  </nav>
+
   <header>
-    <h1>Kevin Yahir Magaña Navarro</h1>
-    <p>Desarrollador de Software</p>
-    <a href="CV_Kevin_Yahir_Magana_Navarro.pdf" class="btn" download>Descargar CV</a>
+    <img src="profile.jpg" alt="Kevin Yahir Magaña Navarro" class="profile-img fade-in">
+    <h1 class="fade-in delay-1">Kevin Yahir Magaña Navarro</h1>
+    <p class="fade-in delay-1">Ingeniero en Sistemas Computacionales | Desarrollador PHP-Laravel | Especialista en SQL
+      Server</p>
+
+    <div class="social-links fade-in delay-2">
+      <a href="https://www.linkedin.com/in/tu-perfil" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/tu-usuario" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://twitter.com/tu-usuario" target="_blank"><i class="fab fa-twitter"></i></a>
+    </div>
+
+    <div class="fade-in delay-3">
+      <a href="CV_Kevin_Yahir_Magana_Navarro.pdf" class="btn" download><i class="fas fa-download"></i> Descargar CV</a>
+      <a href="#contact" class="btn btn-outline"><i class="fas fa-envelope"></i> Contactarme</a>
+    </div>
   </header>
 
-  <section>
-    <h2>Sobre mí</h2>
-    <p>Ingeniero en Sistemas Computacionales con experiencia en desarrollo de software y una sólida formación académica. Mi objetivo es adquirir experiencia práctica en seguridad de la información y profundizar mis conocimientos en lenguajes de programación. Me destaco por ser proactivo, orientado a resultados y poseo una fuerte motivación para contribuir a proyectos desafiantes en ciberseguridad, computación en la nube y desarrollo de software.</p>
+  <section id="about">
+    <h2 class="fade-in">Sobre mí</h2>
+    <div class="about-content">
+      <div class="about-text fade-in delay-1">
+        <p>Soy un Ingeniero en Sistemas Computacionales egresado del Instituto Tecnológico de Tijuana con un promedio de
+          9.2, apasionado por el desarrollo de software y las tecnologías de la información.</p>
+
+        <p>Con experiencia en el desarrollo de aplicaciones web utilizando PHP-Laravel y Microsoft SQL Server, me
+          especializo en crear soluciones tecnológicas que optimizan procesos y mejoran la eficiencia operativa en
+          entornos empresariales y hospitalarios.</p>
+
+        <p>Mi enfoque profesional combina habilidades técnicas sólidas con una mentalidad orientada a resultados, lo que
+          me permite abordar desafíos complejos y entregar soluciones efectivas. Busco constantemente oportunidades para
+          crecer profesionalmente, especialmente en áreas como la ciberseguridad y la computación en la nube.</p>
+
+        <h3>Habilidades técnicas:</h3>
+        <div class="skills">
+          <span class="skill"><i class="fab fa-html5"></i> HTML/CSS</span>
+          <span class="skill"><i class="fab fa-js"></i> JavaScript</span>
+          <span class="skill"><i class="fab fa-php"></i> PHP-Laravel</span>
+          <span class="skill"><i class="fas fa-database"></i> SQL Server</span>
+          <span class="skill"><i class="fab fa-microsoft"></i> C#</span>
+          <span class="skill"><i class="fas fa-code"></i> C++</span>
+          <span class="skill"><i class="fab fa-git-alt"></i> Git</span>
+          <span class="skill"><i class="fab fa-aws"></i> AWS</span>
+          <span class="skill"><i class="fas fa-cloud"></i> Microsoft 365</span>
+        </div>
+      </div>
+    </div>
   </section>
 
-  <section>
-    <h2>Educación</h2>
-    <p><strong>Instituto Tecnológico de Tijuana</strong> – Ingeniería en Sistemas Computacionales (2023)<br>Promedio: 9.2</p>
+  <section id="experience">
+    <h2 class="fade-in">Experiencia Laboral</h2>
+    <div class="timeline">
+      <div class="timeline-item fade-in delay-1">
+        <div class="timeline-date">2023 - Actual</div>
+        <div class="timeline-content">
+          <h3>Desarrollador de Software</h3>
+          <p><strong>Hospital de Salud Mental de Tijuana</strong></p>
+          <p>Tijuana, Baja California</p>
+          <ul>
+            <li>Diseñé, desarrollé e implementé 3 aplicaciones internas para gestión hospitalaria utilizando PHP-Laravel
+              y SQL Server, optimizando procesos clave y mejorando la eficiencia operativa en un 30%.</li>
+            <li>Lideré la migración de sistemas legacy a soluciones modernas basadas en web, reduciendo tiempos de
+              procesamiento en un 40%.</li>
+            <li>Implementé medidas de seguridad para proteger datos sensibles de pacientes, cumpliendo con regulaciones
+              de privacidad.</li>
+            <li>Colaboré con equipos multidisciplinarios para identificar y resolver problemas técnicos en tiempo real,
+              garantizando un alto rendimiento en los sistemas.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="timeline-item fade-in delay-2">
+        <div class="timeline-date">2022 - 2023</div>
+        <div class="timeline-content">
+          <h3>Cajero Líder</h3>
+          <p><strong>Grupo Salinas</strong></p>
+          <p>Tijuana, Baja California</p>
+          <ul>
+            <li>Lideré las operaciones de caja y atención al cliente en una de las sucursales con mayor volumen de la
+              región.</li>
+            <li>Implementé mejoras en los procesos de atención que redujeron los tiempos de espera de clientes en un
+              25%.</li>
+            <li>Capacité a 5 nuevos empleados en procedimientos operativos y atención al cliente.</li>
+            <li>Desarrollé un sistema de control de inventario básico utilizando Excel que mejoró la precisión en los
+              reportes mensuales.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
   </section>
 
-  <section>
-    <h2>Experiencia laboral</h2>
-    <ul>
-      <li><strong>Hospital de Salud Mental de Tijuana (Mar 2023 – Actualidad)</strong><br>
-        Desarrollo e implementación de aplicaciones internas para gestión hospitalaria usando PHP-Laravel y SQL Server.</li>
-      <li><strong>Grupo Salinas (Jun 2022 – Ene 2023)</strong><br>
-        Cajero Líder, optimizando operaciones de caja y atención al cliente.</li>
-    </ul>
+  <section id="education">
+    <h2 class="fade-in">Educación</h2>
+    <div class="timeline">
+      <div class="timeline-item fade-in delay-1">
+        <div class="timeline-date">2018 - 2023</div>
+        <div class="timeline-content">
+          <h3>Ingeniería en Sistemas Computacionales</h3>
+          <p><strong>Instituto Tecnológico de Tijuana</strong></p>
+          <p>Promedio: 9.2</p>
+          <p>Tesis: "Desarrollo de sistema de gestión para clínica médica utilizando tecnologías web modernas"</p>
+          <ul>
+            <li>Participación activa en competencias de programación y eventos tecnológicos</li>
+            <li>Desarrollo de proyectos académicos utilizando diversas tecnologías de programación</li>
+          </ul>
+        </div>
+      </div>
+    </div>
   </section>
 
-  <section>
-    <h2>Proyectos y Reconocimientos</h2>
-    <ul>
-      <li><strong>Eat on Time</strong> – Segundo lugar en Innovatec 2022.<br>
-        Aplicación de escritorio reconocida por su innovación y funcionalidad.</li>
-    </ul>
+  <section id="projects">
+    <h2 class="fade-in">Proyectos Destacados</h2>
+    <div class="projects">
+      <div class="project-card fade-in delay-1">
+        <img src="project-eatontime.jpg" alt="Eat on Time" class="project-img">
+        <div class="project-info">
+          <h3>Eat on Time</h3>
+          <p>Aplicación de escritorio para gestión de restaurantes desarrollada en C# y SQL Server que obtuvo el segundo
+            lugar en Innovatec 2022. La solución permite gestionar pedidos, inventario y reportes financieros en tiempo
+            real.</p>
+          <div class="project-links">
+            <a href="#"><i class="fab fa-github"></i> Código Fuente</a>
+            <a href="#"><i class="fas fa-external-link-alt"></i> Demo</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card fade-in delay-2">
+        <img src="project-hospital.jpg" alt="Sistema Hospitalario" class="project-img">
+        <div class="project-info">
+          <h3>Sistema de Gestión Hospitalaria</h3>
+          <p>Sistema web desarrollado para el Hospital de Salud Mental de Tijuana utilizando PHP-Laravel y SQL Server.
+            Permite la gestión de pacientes, citas, historiales médicos y reportes administrativos.</p>
+          <div class="project-links">
+            <a href="#"><i class="fab fa-github"></i> Código Fuente</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card fade-in delay-3">
+        <img src="project-clinica.jpg" alt="Sistema Clínica" class="project-img">
+        <div class="project-info">
+          <h3>Sistema de Gestión para Clínica Médica</h3>
+          <p>Proyecto de tesis desarrollado como solución integral para clínicas pequeñas y medianas. Incluye módulos de
+            administración, citas, expedientes electrónicos y facturación.</p>
+          <div class="project-links">
+            <a href="#"><i class="fab fa-github"></i> Código Fuente</a>
+            <a href="#"><i class="fas fa-external-link-alt"></i> Demo</a>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 
-  <section>
-    <h2>Habilidades Técnicas</h2>
-    <ul>
-      <li>HTML, CSS, JavaScript, C++, C#, PHP (Laravel)</li>
-      <li>Microsoft SQL Server</li>
-      <li>Microsoft 365, Git</li>
-    </ul>
+  <section id="certifications">
+    <h2 class="fade-in">Certificaciones</h2>
+    <div class="certifications">
+      <div class="cert-card fade-in delay-1">
+        <h3>AWS Academy Cloud Foundations</h3>
+        <p>Amazon Web Services</p>
+        <p>2023</p>
+        <p>Conocimientos fundamentales sobre servicios en la nube de AWS, incluyendo EC2, S3, RDS y VPC.</p>
+      </div>
+
+      <div class="cert-card fade-in delay-2">
+        <h3>Microsoft 365 Training</h3>
+        <p>Microsoft</p>
+        <p>2022</p>
+        <p>Certificación en el uso avanzado de herramientas de productividad de Microsoft 365 para entornos
+          empresariales.</p>
+      </div>
+
+      <div class="cert-card fade-in delay-3">
+        <h3>Desarrollo Web con PHP</h3>
+        <p>Platzi</p>
+        <p>2021</p>
+        <p>Curso especializado en desarrollo backend con PHP y bases de datos relacionales.</p>
+      </div>
+    </div>
   </section>
 
-  <section>
-    <h2>Certificaciones</h2>
-    <ul>
-      <li>AWS Academy Cloud Foundations</li>
-      <li>Microsoft 365 Training</li>
-    </ul>
+  <section id="contact">
+    <h2 class="fade-in">Contacto</h2>
+    <div class="contact-form fade-in delay-1">
+      <form action="https://formspree.io/f/your-form-id" method="POST">
+        <div class="form-group">
+          <label for="name">Nombre completo</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Correo electrónico</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="form-group">
+          <label for="subject">Asunto</label>
+          <input type="text" id="subject" name="subject" required>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Mensaje</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+
+        <button type="submit" class="btn"><i class="fas fa-paper-plane"></i> Enviar Mensaje</button>
+      </form>
+    </div>
+
+    <div class="contact-info fade-in delay-2">
+      <p><i class="fas fa-envelope"></i> kevinyahirmn@outlook.com</p>
+      <p><i class="fas fa-phone"></i> +52 663 206 9744</p>
+      <p><i class="fas fa-map-marker-alt"></i> Calle Popocatépetl 16617, Tijuana, Baja California, México</p>
+    </div>
   </section>
 
-  <section>
-    <h2>Contacto</h2>
-    <p>Email: kevinyahirmn@outlook.com<br>
-       Tel: 663-206-9744<br>
-       Dirección: Calle Popocatépetl 16617, Tijuana, 22456, Mexico</p>
-  </section>
-
-  <footer>
-    <p>&copy; 2025 Kevin Yahir Magaña Navarro</p>
+  <footer class="fade-in">
+    <p>Conéctate conmigo en redes sociales</p>
+    <div class="footer-links">
+      <a href="https://www.linkedin.com/in/tu-perfil" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/tu-usuario" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://twitter.com/tu-usuario" target="_blank"><i class="fab fa-twitter"></i></a>
+      <a href="https://instagram.com/tu-usuario" target="_blank"><i class="fab fa-instagram"></i></a>
+    </div>
+    <p class="copyright">© 2023 Kevin Yahir Magaña Navarro. Todos los derechos reservados.</p>
   </footer>
+
+  <script src="script.js"></script>
 </body>
+
 </html>
