@@ -27,3 +27,12 @@ fadeElements.forEach(element => {
     element.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
     observer.observe(element);
 });
+
+document.querySelectorAll('.thumbnail').forEach(thumb => {
+    thumb.addEventListener('click', function () {
+        const mainImg = this.closest('.screenshot-gallery').querySelector('.project-img');
+        const tempSrc = mainImg.src;
+        mainImg.src = this.src;
+        this.src = tempSrc;
+    });
+});
