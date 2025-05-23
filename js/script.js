@@ -43,28 +43,40 @@ const galleryData = {
     project1: {
         title: "The Game - Juego de Cartas Multijugador",
         images: [
-            "img/projects/the-game/main.jpg",
-            "img/projects/the-game/lobby.jpg",
-            "img/projects/the-game/gameplay.jpg",
-            "img/projects/the-game/mobile.jpg"
+            "img/the-game/main.png",
+            "img/the-game/lobby.png",
+            "img/the-game/lobby2P.png",
+            "img/the-game/gameboard.png",
+            "img/the-game/gameover.png"
         ],
         technologies: ["HTML5", "CSS3", "JavaScript", "Node.js", "WebSockets", "Render", "Neon"]
     },
     project2: {
         title: "Sistema de Gestión Hospitalaria",
         images: [
-            "img/projects/hospital/dashboard.jpg",
-            "img/projects/hospital/patients.jpg",
-            "img/projects/hospital/reports.jpg"
+            "img/gestion-hospital/login.png",
+            "img/gestion-hospital/patients-info.png",
+            "img/gestion-hospital/filter.png",
+            "img/gestion-hospital/delete-patient.png",
+            "img/gestion-hospital/delete-register.png",
+            "img/gestion-hospital/patient-answers-report-test.png",
+            "img/gestion-hospital/register-patient.png",
+            "img/gestion-hospital/edit-patient-info.png",
+            "img/gestion-hospital/register-company.png",
+            "img/gestion-hospital/agenda.png",
+            "img/gestion-hospital/agenda-info.png"
         ],
         technologies: ["HTML5", "CSS3", "JavaScript", "Bootstrap", "MySQL", "cPanel", "Node.js", "Composer"]
     },
     project3: {
         title: "Evaluaciones Psicológicas",
         images: [
-            "img/projects/evaluations/test.jpg",
-            "img/projects/evaluations/results.jpg",
-            "img/projects/evaluations/admin.jpg"
+            "img/evaluaciones-psicologicas/index-code.png",
+            "img/evaluaciones-psicologicas/patient-info.png",
+            "img/evaluaciones-psicologicas/test.png",
+            "img/evaluaciones-psicologicas/test2.png",
+            "img/evaluaciones-psicologicas/test3.png",
+            "img/evaluaciones-psicologicas/index.png"
         ],
         technologies: ["HTML5", "CSS3", "JavaScript", "Bootstrap", "MySQL", "PHP"]
     }
