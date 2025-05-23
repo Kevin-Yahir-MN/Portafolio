@@ -444,6 +444,12 @@ h3 {
 }
 
 /* Contacto */
+#contact {
+    padding: 2rem 2rem 5rem 2rem;
+    max-width: 1100px;
+    margin: auto;
+}
+
 .contact-form {
     max-width: 700px;
     margin: 0 auto;
@@ -502,6 +508,17 @@ h3 {
     color: #3498db;
     margin-right: 10px;
     width: 20px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .contact-form {
+        padding: 2rem;
+    }
+
+    #contact {
+        padding: 1rem 1rem 3rem 1rem;
+    }
 }
 
 /* Footer */
@@ -708,4 +725,144 @@ footer p {
         text-align: center;
         justify-content: center;
     }
+}
+
+/* Estilos para el modal de galería */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow: auto;
+    animation: fadeIn 0.3s;
+}
+
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: 5% auto;
+    padding: 2rem;
+    max-width: 900px;
+    border-radius: 8px;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.3);
+}
+
+.close-modal {
+    position: absolute;
+    top: 1rem;
+    right: 1.5rem;
+    color: #aaa;
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.close-modal:hover {
+    color: #333;
+}
+
+.gallery-container {
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.gallery-container img {
+    max-width: 100%;
+    max-height: 500px;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.gallery-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 1.5rem;
+}
+
+.gallery-nav button {
+    background: #3498db;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s;
+}
+
+.gallery-nav button:hover {
+    background: #2980b9;
+}
+
+.image-counter {
+    font-weight: 600;
+    color: #333;
+}
+
+.gallery-btn {
+    margin: 1.5rem 0;
+}
+
+/* Responsive para el modal */
+@media (max-width: 768px) {
+    .modal-content {
+        margin: 10% auto;
+        width: 90%;
+    }
+
+    .gallery-container img {
+        max-height: 300px;
+    }
+}
+
+/* Corrección para botones que desaparecen */
+.btn,
+.gallery-btn {
+    transition: all 0.3s ease !important;
+}
+
+.btn:hover,
+.gallery-btn:hover {
+    opacity: 1 !important;
+    transform: translateY(-3px) !important;
+}
+
+/* Estilos específicos para los botones de la galería */
+.gallery-btn {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin: 1rem 0;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.gallery-btn:hover {
+    background-color: #2980b9;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.prev-btn,
+.next-btn {
+    opacity: 1 !important;
+    transition: background-color 0.3s !important;
+}
+
+.prev-btn:hover,
+.next-btn:hover {
+    opacity: 1 !important;
+    background-color: #2980b9 !important;
 }

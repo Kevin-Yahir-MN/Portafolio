@@ -46,9 +46,8 @@
     <div class="about-content">
       <div class="about-text fade-in delay-1">
         <p>Soy un Ingeniero en Sistemas Computacionales con experiencia en desarrollo full stack y una pasión por crear
-          soluciones tecnológicas innovadoras. Me especializo en aplicaciones web y sistemas en tiempo real, ademas del
-          manejo de bases de datos.
-        </p>
+          soluciones tecnológicas innovadoras. Me especializo en aplicaciones web y sistemas en tiempo real, además del
+          manejo de bases de datos.</p>
 
         <p>Con habilidades tanto en frontend como backend, he desarrollado desde sistemas empresariales hasta juegos
           multijugador online. Mi enfoque combina código limpio, arquitecturas escalables y experiencia de usuario
@@ -105,125 +104,108 @@
   <section id="projects">
     <h2 class="fade-in">Proyectos Destacados</h2>
 
-    <!-- The Game - Juego de Cartas -->
+    <!-- Proyecto 1 -->
     <div class="project-card fade-in delay-1">
-      <div class="screenshot-gallery">
-        <div class="screenshot-container">
-          <img src="the-game-main.jpg" alt="The Game - Juego de cartas online" class="project-img">
-          <div class="screenshot-overlay">Juego en vivo</div>
-        </div>
-        <div class="screenshot-thumbnails">
-          <img src="the-game-lobby.jpg" alt="Lobby de salas" class="thumbnail">
-          <img src="the-game-play.jpg" alt="Partida en curso" class="thumbnail">
-          <img src="the-game-ws.jpg" alt="Diagrama WebSockets" class="thumbnail">
-        </div>
-      </div>
-
       <div class="project-info">
         <h3>The Game - Juego de Cartas Multijugador</h3>
         <p class="project-subtitle">Desarrollo personal - Juego online con tecnología moderna</p>
 
-        <div class="project-features">
-          <div class="feature">
-            <i class="fas fa-network-wired"></i>
-            <h4>Arquitectura en Tiempo Real</h4>
-            <ul>
-              <li>Sistema de salas con códigos compartibles</li>
-              <li>Conexión persistente con WebSockets</li>
-              <li>Sincronización instantánea de estados de juego</li>
-              <li>Manejo de eventos en tiempo real con Socket.io</li>
-            </ul>
-          </div>
+        <p>Un juego de cartas online multijugador en tiempo real implementado con WebSockets. Los jugadores pueden crear
+          salas privadas, invitar amigos y disfrutar de partidas sincronizadas con persistencia de estado.</p>
 
-          <div class="feature">
-            <i class="fas fa-server"></i>
-            <h4>Infraestructura Cloud</h4>
-            <ul>
-              <li>Web Service implementado en Render</li>
-              <li>Base de datos PostgreSQL en Neon</li>
-              <li>Arquitectura escalable</li>
-              <li>Despliegue continuo (CI/CD)</li>
-            </ul>
-          </div>
-
-          <div class="feature">
-            <i class="fas fa-gamepad"></i>
-            <h4>Mecánicas de Juego</h4>
-            <ul>
-              <li>Sistema de turnos y reglas personalizadas</li>
-              <li>Interfaz intuitiva para dispositivos móviles</li>
-              <li>Animaciones y feedback visual</li>
-              <li>Persistencia de partidas</li>
-            </ul>
-          </div>
-        </div>
+        <button class="btn gallery-btn" data-project="project1">
+          <i class="fas fa-images"></i> Ver Galería
+        </button>
 
         <div class="tech-stack">
           <h4>Tecnologías principales:</h4>
           <div class="tech-badges">
+            <span class="tech-badge">HTML5</span>
+            <span class="tech-badge">CSS3</span>
+            <span class="tech-badge">JavaScript</span>
             <span class="tech-badge">Node.js</span>
-            <span class="tech-badge">Socket.io</span>
-            <span class="tech-badge">PostgreSQL</span>
-            <span class="tech-badge">React</span>
+            <span class="tech-badge">WebSockets</span>
             <span class="tech-badge">Render</span>
             <span class="tech-badge">Neon</span>
           </div>
         </div>
+      </div>
+    </div>
 
-        <div class="project-links">
-          <a href="https://tugame.onrender.com" class="btn" target="_blank"><i class="fas fa-external-link-alt"></i>
-            Demo en vivo</a>
-          <a href="https://github.com/tuusuario/the-game" class="btn btn-outline" target="_blank"><i
-              class="fab fa-github"></i> Código Fuente</a>
-        </div>
+    <!-- Proyecto 2 -->
+    <div class="project-card fade-in delay-2">
+      <div class="project-info">
+        <h3>Sistema de Gestión Hospitalaria</h3>
+        <p class="project-subtitle">Solución integral para administración hospitalaria</p>
 
-        <div class="project-impact">
-          <h4>Desafíos técnicos superados:</h4>
-          <ul>
-            <li>Implementación de lógica compleja de juego</li>
-            <li>Sincronización perfecta entre múltiples jugadores</li>
-            <li>Optimización de conexiones WebSocket</li>
-            <li>Manejo de estados complejos del juego</li>
-          </ul>
+        <p>Sistema completo para la gestión de pacientes, citas y recursos hospitalarios. Incluye módulos de
+          administración, reportes estadísticos y dashboards interactivos para el personal médico.</p>
+
+        <button class="btn gallery-btn" data-project="project2">
+          <i class="fas fa-images"></i> Ver Galería
+        </button>
+
+        <div class="tech-stack">
+          <h4>Tecnologías principales:</h4>
+          <div class="tech-badges">
+            <span class="tech-badge">HTML5</span>
+            <span class="tech-badge">CSS3</span>
+            <span class="tech-badge">JavaScript</span>
+            <span class="tech-badge">Bootstrap</span>
+            <span class="tech-badge">MySQL</span>
+            <span class="tech-badge">cPanel</span>
+            <span class="tech-badge">Node.js</span>
+            <span class="tech-badge">Composer</span>
+          </div>
         </div>
       </div>
     </div>
 
-    <!-- Proyectos Hospitalarios (sin detalles técnicos) -->
-    <div class="project-card fade-in delay-2">
+    <!-- Proyecto 3 -->
+    <div class="project-card fade-in delay-3">
       <div class="project-info">
-        <h3>Sistemas Hospitalarios</h3>
-        <p class="project-subtitle">Desarrollos bajo contrato para el Hospital de Salud Mental de Tijuana</p>
+        <h3>Evaluaciones Psicológicas</h3>
+        <p class="project-subtitle">Plataforma digital para pruebas psicométricas</p>
 
-        <div class="project-features">
-          <div class="feature">
-            <i class="fas fa-user-shield"></i>
-            <h4>Sistema de Gestión de Pacientes</h4>
-            <ul>
-              <li>Plataforma web interna para administración hospitalaria</li>
-              <li>Módulos personalizados para necesidades específicas</li>
-              <li>Interfaz intuitiva para personal médico</li>
-            </ul>
+        <p>Aplicación web para la administración y evaluación de pruebas psicológicas con generación automática de
+          reportes diagnósticos y seguimiento de pacientes.</p>
+
+        <button class="btn gallery-btn" data-project="project3">
+          <i class="fas fa-images"></i> Ver Galería
+        </button>
+
+        <div class="tech-stack">
+          <h4>Tecnologías principales:</h4>
+          <div class="tech-badges">
+            <span class="tech-badge">HTML5</span>
+            <span class="tech-badge">CSS3</span>
+            <span class="tech-badge">JavaScript</span>
+            <span class="tech-badge">Bootstrap</span>
+            <span class="tech-badge">MySQL</span>
+            <span class="tech-badge">cPanel</span>
+            <span class="tech-badge">Node.js</span>
+            <span class="tech-badge">Composer</span>
           </div>
-
-          <div class="feature">
-            <i class="fas fa-brain"></i>
-            <h4>Sistema de Evaluaciones Psicológicas</h4>
-            <ul>
-              <li>Plataforma digital para pruebas psicométricas</li>
-              <li>Automatización de procesos de diagnóstico</li>
-              <li>Generación automática de reportes</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="disclaimer">
-          <i class="fas fa-lock"></i> Por acuerdos de confidencialidad, no se muestran detalles técnicos ni código
-          fuente de estos proyectos.
         </div>
       </div>
     </div>
   </section>
+
+  <!-- Modal para galerías -->
+  <div id="galleryModal" class="modal">
+    <div class="modal-content">
+      <span class="close-modal">&times;</span>
+      <h3 id="modal-title"></h3>
+      <div class="gallery-container">
+        <!-- Las imágenes se insertarán aquí dinámicamente -->
+      </div>
+      <div class="gallery-nav">
+        <button class="prev-btn"><i class="fas fa-chevron-left"></i></button>
+        <span class="image-counter">1/5</span>
+        <button class="next-btn"><i class="fas fa-chevron-right"></i></button>
+      </div>
+    </div>
+  </div>
 
   <section id="contact">
     <h2 class="fade-in">Contacto</h2>
@@ -267,7 +249,7 @@
       <a href="https://github.com/tu-usuario" target="_blank"><i class="fab fa-github"></i></a>
       <a href="https://twitter.com/tu-usuario" target="_blank"><i class="fab fa-twitter"></i></a>
     </div>
-    <p class="copyright">© 2023 Kevin Yahir Magaña Navarro. Todos los derechos reservados.</p>
+    <p class="copyright">© 2025 Kevin Yahir Magaña Navarro. Todos los derechos reservados.</p>
   </footer>
 
   <script src="js/script.js"></script>
